@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Winterville Backyard Cinema</title>
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <!--custom CSS, called main-->
+    <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+    <link href="../css/main.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+
+  </head>
+  <body>
+
+
+
+      <!-- including a navbar from bootstrap-->
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="https://them-the-writers.github.io/home/">Winterville Backyard Cinema</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                 <!-- <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li> -->
+                 <li><a href="https://them-the-writers.github.io/home/">Home</a></li>
+                 <li><a href="https://them-the-writers.github.io/home/tags.html">Tags</a></li>
+                 <li class="active" class="dropdown"> <!-- include the class active here to highlight authors button-->
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Authors<span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                          <li><a href="isabel_allende.html">Isabel Allende</a></li>
+                          <li><a href="margaret_atwood">Margaret Atwood</a></li>
+                          <li><a href="alison_bechdel.html">Alison Bechdel</a></li>
+                          <li><a href="siri_hustvedt.html">Siri Hustvedt</a></li>
+                          <li><a href="rosa_montero.html">Rosa Montero</a></li>
+                          <li><a href="sylvia_plath.html">Sylvia Plath</a></li>
+                          <li><a href="zadie_smith.html">Zadie Smith</a></li>
+                          <li><a href="virginia_woolf.html">Virginia Woolf</a></li>
+                      </ul>
+                </li>
+                <li><a href="https://them-the-writers.github.io/home/contact-us.html">Contact</a></li>
+
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+
+
+     <br><br><br>
+
+
+
+
+    <div class=“container”> <!--use container-fluid to make it full width and not fixed width-->
+
+        <!--Initial grid with col-md-4 for author's photo, and col-md-8 for heading1 (name+country+date),
+        author's info (2 short paragraphs) and a quote-->
+        <div class="row">
+            <div class="col-md-4">
+                <img src="../images/winterville2.jpg" class="img-responsive gray_img" alt="Margaret Atwood image">
+            </div>
+            <div class="col-md-8"> <!--contains author´s name, country and date of birth in H1; info in P; and a quote from a novel insede a Blockquote div -->
+                <h1>Winterville Backyard Cinema <small>Clapham, London</small></h1>
+                <p class="lead">Make your way throguh a magical wardrobe and discover an enchanted Christmas labyrinth with live entertainment, a bar and two screens.</p>
+                <p class="lead">The wintery cinema has all the classic Christmas films to get you in the festive mood,as well as singalong blockbusters like the Greatest Showman and Moulin Rouge. There's also a cheeky secret tequilla room - shhhh! In non-festive times, the Backyard Cinema operates in various locations around London.</p>
+                <blockquote> <!--adds a quote from one of the author's books using the bootstrap class blockquote-->
+                    <p>“The perfect festive celebrations”</p>
+                    <small>"Lenny from Bloomsbury, London"</small>
+                </blockquote>
+            </div>
+        </div>
+
+        <!-- hr adds an horizontal line and some white space (margins) betweek sections -->
+        <hr>
+
+
+
+        <!--the br breaks add an empty space after the social buttons before the end of the webpage-->
+        <br><br><br>
+
+
+    </div>
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>

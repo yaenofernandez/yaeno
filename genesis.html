@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Genesis Cinema</title>
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <!--custom CSS, called main-->
+    <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+    <link href="../css/main.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+
+  </head>
+  <body>
+
+
+
+      <!-- including a navbar from bootstrap-->
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand">Cinema Paradiso</a>
+          </div>
+
+
+
+    <div class=“container”> <!--use container-fluid to make it full width and not fixed width-->
+
+        <!--Initial grid with col-md-4 for author's photo, and col-md-8 for heading1 (name+country+date),
+        author's info (2 short paragraphs) and a quote-->
+        <div class="row">
+            <div class="col-md-4">
+                <img src="../images/genesis1.jpg" class="img-responsive gray_img" alt="Genesis Image">
+            </div>
+            <div class="col-md-8"> <!--contains author´s name, country and date of birth in H1; info in P; and a quote from a novel insede a Blockquote div -->
+                <h1>Genesis Cinema <small>Mile End Road</small></h1>
+                <p class="lead">Genesis Cinema is a hip local independent cinema with super reasonable pricing and the option to upgrade to sofa seating in screens 4 and 5.</p>
+                <p class="lead">A rich history dating back to 1848, Genesis Cinema was once a theatre that had Charlie Chaplain perform just before he left for Hollywood. Now the cinema boasts a warm and friendly atmosphere, gorgeous decor and the comfiest seating.Screens 4 and 5 provide for a more luxury experience, but at an affordable price (£9.50), but the £5 seats are also great options. The cinema have a great selections of showings and is perfect for students and film lovers alike.
+                <blockquote> <!--adds a quote from one of the author's books using the bootstrap class blockquote-->
+                    <p>"The cinema itself is amazing and brings with it culture and history. Such a fantastic friendly independent cinema"</p>
+                    <small>Sam from London</small>
+                </blockquote>
+            </div>
+        </div>
+
+
+
+        <!--the br breaks add an empty space after the social buttons before the end of the webpage-->
+        <br><br><br>
+
+
+    </div>
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>

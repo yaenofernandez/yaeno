@@ -1,0 +1,80 @@
+/* Template CSS from https://bootsnipp.com/snippets/r1Z7d */
+.port-image
+{
+    width: 100%;
+}
+
+.col-md-3
+{
+    margin-bottom:20px;
+}
+
+.each-item
+{
+    position:relative;
+    overflow:hidden;
+}
+
+.each-item:hover .cap2, .each-item:hover .cap1
+{
+    left:0px;
+}
+
+.cap1
+{
+    position:absolute;
+    width:210px;
+    height:70%;
+    background:rgba(255, 255, 255, 0.5);
+    color: black;
+    top:0px;
+    left:-100%;
+    padding:10px;
+
+    transition: all .5s;
+}
+
+.cap2
+{
+    position:absolute;
+    width:210px;
+    height:30%;
+    background:rgba(91, 108, 86, 0.5);  /* same color as HEX #5B6C56 used for HR*/
+    bottom:0px;
+    left:100%;
+    padding:10px;
+
+    transition: all .5s;
+}
+
+
+/* Customised CSS */
+/* Making all author images to gray scale */
+.btn-primary{
+  background: #5B6C56;
+  border-color: #445140;
+}
+
+
+a:hover{
+  color:gray;
+}
+a{
+  color: white;
+}
+
+img{
+    filter: grayscale(100%);
+    /* background-size: cover;
+    background-position: center;*/
+}
+
+
+
+
+/* class for images */
+.thumb1 {
+  background: url(blah.jpg) 50% 50% no-repeat; /* 50% 50% centers image in div */
+  height: 250px;
+  width: 210px;
+}
